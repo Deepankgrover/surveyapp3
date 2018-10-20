@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "888895009938",
+    "firebase_url": "https://surveyapp2-7ee3c.firebaseio.com",
+    "project_id": "surveyapp2-7ee3c",
+    "storage_bucket": "surveyapp2-7ee3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888895009938:android:c71db5dddc16eb2d",
+        "android_client_info": {
+          "package_name": "com.example.deepank.surveyapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888895009938-kr6mc40ut3q26v6dm9is4n7mvhs3o02h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deepank.surveyapp2",
+            "certificate_hash": "67095a166d14ec9c989921a3c63b859278cd0ee6"
+          }
+        },
+        {
+          "client_id": "888895009938-9fm991ttauq7ph7q1dutpbotsepn70cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCa1ic2gE9JOSB_heXgcgwds4GrYDUIgc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888895009938-9fm991ttauq7ph7q1dutpbotsepn70cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

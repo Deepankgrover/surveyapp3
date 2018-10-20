@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textcreate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:background="@drawable/logosuveyarena"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/etid"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/edit_round"
+        android:hint="Enter your ID"
+        android:inputType="textEmailSubject" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:text="create account ?"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:hint="Password"
+        android:background="@drawable/edit_round"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="185dp"
+        android:background="@drawable/button_round"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/etsurvey"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="87dp"
+        android:ems="10"
+        android:textSize="30dp"
+        android:text="Survey Arena" />
+</RelativeLayout>
