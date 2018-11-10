@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "261490198474",
+    "firebase_url": "https://depanktest1.firebaseio.com",
+    "project_id": "depanktest1",
+    "storage_bucket": "depanktest1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261490198474:android:4124965d3af3227d",
+        "android_client_info": {
+          "package_name": "com.example.anand.depanktest1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261490198474-7aojtmf2rqaj7tb9da414o3jle0se8ps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anand.depanktest1",
+            "certificate_hash": "cb6aada98a13f7e7b9aab39b872fbeffae9ac622"
+          }
+        },
+        {
+          "client_id": "261490198474-dshsgnc1ak27klqqss1shieqd8duhkco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKaYOHP1fi2-mfLWDsN8AytYsi3YzkAhQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261490198474-dshsgnc1ak27klqqss1shieqd8duhkco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
