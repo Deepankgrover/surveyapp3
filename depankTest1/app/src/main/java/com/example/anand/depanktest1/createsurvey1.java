@@ -16,7 +16,6 @@ public class createsurvey1 extends AppCompatActivity {
     private EditText et1,et2;
    // final FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    final DatabaseReference MyRef = database.getReferenceFromUrl("https://surveyapp2-7ee3c.firebaseio.com/");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

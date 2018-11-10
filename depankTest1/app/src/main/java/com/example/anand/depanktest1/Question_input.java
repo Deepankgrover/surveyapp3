@@ -17,7 +17,8 @@ public class Question_input extends AppCompatActivity {
     int counter  = 1;
     //FirebaseDatabase firebaseDatabase;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    final DatabaseReference MyRef = database.getReferenceFromUrl("https://surveyapp2-7ee3c.firebaseio.com/");
+//    final DatabaseReference MyRef = database.getReferenceFromUrl("https://surveyapp2-7ee3c.firebaseio.com/");
+    final DatabaseReference MyRef = database.getReference();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +40,7 @@ public class Question_input extends AppCompatActivity {
                 if(counter < 5){
                     String question1 = question.getText().toString().trim();
                     if(question1 != null){
-                        MyRef.child(survey_name).push().setValue(question1);
+                        MyRef.child(survey_name).child(counter+"").setValue(question1);
 
                         question.getText().clear();
                         counter++;
